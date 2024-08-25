@@ -1,0 +1,94 @@
+:root{
+    background: rgb(0,0,0);
+    background: linear-gradient(158deg, rgba(0,0,0,1) 26%, rgba(4,50,87,1) 63%);
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(20,0.5fr);
+    grid-template-rows: repeat(20,1fr);
+    gap: 10px;
+    padding: 10px;
+    height: 550px;
+    margin: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sc1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    margin: 0;
+}
+
+.sc2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 16;
+    margin: 0;
+}
+
+.sc3{
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    margin: 0;
+}
+
+.sc4{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end: 21;
+    margin: 0;
+}
+
+.sc5{
+    grid-column-start: 12;
+    grid-column-end: 15;
+    grid-row-start: 12;
+    grid-row-end: 21;
+    margin: 0;
+}
+
+.sc6{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 16;
+    grid-row-end: 21;
+    margin: 0;
+}
+
+.sc7{
+    grid-column-start: 10;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    margin: 0; 
+}
+
+.imageBento{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sc8{
+    grid-column-start: 15;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 21;
+    margin: 0; 
+}
+
+#v1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
