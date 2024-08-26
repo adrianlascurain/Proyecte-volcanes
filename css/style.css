@@ -3,6 +3,20 @@
     background: linear-gradient(158deg, rgba(0,0,0,1) 26%, rgba(4,50,87,1) 63%);
 }
 
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0px;
+    background: rgb(7,62,196);
+    background: linear-gradient(158deg, rgba(7,62,196,1) 5%, rgba(1,107,175,1) 38%, rgba(21,87,78,0.9220938375350141) 74%);
+    border-radius: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 30px;
+}
+
 .gallery{
     display: grid;
     grid-template-columns: repeat(20,0.5fr);
@@ -91,4 +105,49 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 70px;
+    color: rgb(227, 163, 53);
+    margin-bottom: 5px;
+}
+
+.map-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    margin-top: 10px;
+}
+
+.frame-map{
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 500px;
+    background-color: rgb(15, 67, 116);
+    border-radius: 20px;
+    flex:1.5;
+    margin: 0px 20px 0px 20px;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.municipios{
+    flex:1;
+}
+
+#title-municipios{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.name-municipio{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
 }
