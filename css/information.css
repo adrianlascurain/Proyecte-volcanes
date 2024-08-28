@@ -76,7 +76,7 @@ button{
     color: white;
 }
 
-figure{
+.info-tla{
     height: 100%;
     text-align: center;
     flex: 0.5;
@@ -85,7 +85,36 @@ figure{
 img{
     height: 100%;
     border-radius: 20px;
+}
+
+header{
+    margin: 0px 60px 0px 60px;
+    background: rgb(7,62,196);
+    background: linear-gradient(158deg, rgba(7,62,196,1) 5%, rgba(1,107,175,1) 38%, rgba(21,87,78,0.9220938375350141) 74%);
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: left;
+    border-radius: 10px;
     
 }
 
+.frame-logo{
+    box-sizing: border-box;
+    width: 100px;
+    margin: 5px 5px;
+}
 
+#logo{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    color: yellow;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 40px;
+}
