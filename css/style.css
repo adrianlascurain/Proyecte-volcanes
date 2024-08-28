@@ -1,0 +1,268 @@
+:root{
+    background: rgb(0,0,0);
+    background: linear-gradient(158deg, rgba(0,0,0,1) 26%, rgba(4,50,87,1) 63%);
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 0px;
+    background: rgb(7,62,196);
+    background: linear-gradient(158deg, rgba(7,62,196,1) 5%, rgba(1,107,175,1) 38%, rgba(21,87,78,0.9220938375350141) 74%);
+    border-radius: 20px;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 30px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(20,0.5fr);
+    grid-template-rows: repeat(20,1fr);
+    gap: 10px;
+    padding: 10px;
+    height: 550px;
+    margin: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sc1{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    margin: 0;
+}
+
+.sc2{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 16;
+    margin: 0;
+}
+
+.sc3{
+    grid-column-start: 6;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    margin: 0;
+}
+
+.sc4{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end: 21;
+    margin: 0;
+}
+
+.sc5{
+    grid-column-start: 12;
+    grid-column-end: 15;
+    grid-row-start: 12;
+    grid-row-end: 21;
+    margin: 0;
+}
+
+.sc6{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 16;
+    grid-row-end: 21;
+    margin: 0;
+}
+
+.sc7{
+    grid-column-start: 10;
+    grid-column-end: 15;
+    grid-row-start: 1;
+    grid-row-end: 12;
+    margin: 0; 
+}
+
+.imageBento{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.sc8{
+    grid-column-start: 15;
+    grid-column-end: 21;
+    grid-row-start: 1;
+    grid-row-end: 21;
+    margin: 0; 
+}
+
+#v1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.map-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    margin-top: 10px;
+}
+
+.frame-map{
+    margin-left: 20px;
+    margin-right: 20px;
+    min-width: 500px;
+    background-color: rgb(15, 67, 116);
+    border-radius: 20px;
+    flex:1.5;
+    margin: 0px 20px 0px 20px;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.municipios{
+    flex:1;
+}
+
+#title-municipios{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.name-municipio{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 70px;
+    color: rgb(227, 163, 53);
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: sans-serif;
+    width: 80vw;
+    color: white;
+    font-size: 20px;
+}
+
+.history-div{
+    display: flex;
+    margin: 20px 60px 50px 60px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.history{
+    flex:1.2;
+    margin-right: 0px;
+}
+
+.frame-old-tlalmanalco{
+    flex:1;
+    min-width: 550px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#tlalmanalcoOld{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.paragraph-history{
+    font-size: 20px;
+    width: 100%;
+}
+
+#history-h2, #history-hr{
+    margin: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+ol{
+    color: white;
+    font-family: sans-serif;
+    width: 80vw;
+    margin-top: 0px;
+}
+
+li{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#present-h2, #present-hr{
+    margin: 0px 60px 0px 60px;
+    text-align: center;
+}
+
+.present-div{
+    margin: 20px 60px 30px 60px;
+}
+
+#frame-current-tlalmanalco{
+    text-align: center;
+    box-sizing: content-box;
+}
+
+#tlalmanalcoCur{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.present-text{
+    margin: 60px;
+    size-adjust: 100%;
+}
+
+.bot{
+    width: 300px;
+    position: fixed;
+    bottom: 0px;
+    right: -30px;
+    text-align: center;
+}
+
+.frame-tecolote{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.tecolote{
+    height: 20vh;
+    object-fit: cover;
+}
+
+h3{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+}
